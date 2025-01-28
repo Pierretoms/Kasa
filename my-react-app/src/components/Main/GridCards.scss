@@ -1,0 +1,23 @@
+.grid-cards {
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    min-height: 829px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-items: center;
+    align-items: center;
+    place-content: center;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) { 
+    .grid-cards {
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+        background-color: white;
+    }
+
+}
