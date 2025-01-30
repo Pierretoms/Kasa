@@ -1,0 +1,28 @@
+.appartements_description {
+    margin-bottom: 30px;
+    h4 {
+        color: white;
+        border-radius: 5px;
+        margin: 0;
+    }
+    p {
+        background-color: #F6F6F6;
+        border-radius: 5px;
+        margin: 0;
+        padding: 10px;
+    }
+}
+
+.appartements_description_header {
+    margin-top: 20px;
+    background-color: #FF6060;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 10px 15px;
+    i {
+        color: white;
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,21 @@
+.banner_about {
+    img{
+        border-radius: 25px;
+        margin: auto;
+        margin-bottom: 30px;
+        height: 223px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .banner_about {
+        img {
+            height: 111px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}

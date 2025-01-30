@@ -1,0 +1,9 @@
+.DropDown_container {
+    padding: 0 110px 0 110px;
+}
+
+@media (max-width: 768px) {
+    .DropDown_container {
+        padding: 0;
+    }
+}

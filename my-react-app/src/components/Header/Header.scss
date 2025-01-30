@@ -4,6 +4,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
+    a.active {
+        text-decoration: underline;
+    }
+    a {
+        text-decoration: none;
+    }
 }
 
 .navbar-logo img {
@@ -26,10 +32,6 @@ li {
 
 a {
     color: black;
-}
-
-.apropos {
-    text-decoration: none;
 }
 
 @media (max-width: 768px) {

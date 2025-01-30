@@ -1,0 +1,110 @@
+.appartements_flex {
+    display: flex;
+}
+
+.appartements_title {
+    flex-grow: 1;
+    h1 {
+        color: #FF6060;
+        font-size: 36px;
+        font-weight: 500;
+        margin-block: 0;
+    }
+    h2 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+    p {
+        font-size: 14px;
+        font-weight: 700;
+        color: white;
+        background-color: #FF6060;
+        display: inline;
+        margin-right: 10px;
+        padding: 5px 40px;
+        border-radius: 10px;
+    }
+}
+
+.appartements_host {
+    h3{
+        color: #FF6060;
+        font-size: 18px;
+        margin-block: 0;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+}
+
+.host_picture {
+    background-color: #C4C4C4;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}
+
+.host_details {
+    display: flex;
+}
+
+.rating_star {
+    color: #FF6060;
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 22px;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .appartements_flex {
+        flex-direction: column;
+    }
+    
+    .appartements_title {
+        h1 {
+            font-size: 18px;
+        }
+        h2 {
+            font-size: 14px;
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+        p {
+            font-size: 10px;
+            padding: 5px 30px;
+            border-radius: 5px;
+        }
+    }
+    
+    .appartements_host {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .host_details {
+        h3 {
+            font-size: 12px;
+        }
+    }
+    
+    .host_picture {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .rating_star {
+        font-size: 18px;
+        margin-top: 0;
+    }
+    
+}
