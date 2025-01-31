@@ -1,0 +1,44 @@
+.oups_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        color: #FF6060;
+        font-size: 288px;
+        margin: 0;
+    }
+    h2 {
+        color: #FF6060;
+        font-weight: 500;
+        font-size: 36px;
+        margin: 50px 0 50px 0;
+    }
+    p {
+        color: black;
+        font-weight: 500;
+        font-size: 18px;
+        margin: 50px 0 100px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .oups_container {
+        h1 {
+            font-size: 96px;
+            margin: 100px 0 50px 0;
+        }
+        h2 {
+            font-size: 18px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        span {
+            display: block;
+        }
+        p {
+            font-size: 14px;
+            margin: 60px 0 120px 0;
+        }
+    }
+}
