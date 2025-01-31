@@ -1,12 +1,12 @@
 import React from 'react'
 import './AppartementsDetails.scss'
 
-function AppartementsDetails() {
+function AppartementsDetails({titre,location}) {
   return (
     <div className="appartements_flex">
         <div className='appartements_title'>
-            <h1>Crazy loft on Canal Saint Martin</h1>
-            <h2>Paris, île de France</h2>
+            <h1>{titre}</h1>
+            <h2>{location}</h2>
             <p>Cozy</p>
             <p>Canal</p>
             <p>Paris 10</p>

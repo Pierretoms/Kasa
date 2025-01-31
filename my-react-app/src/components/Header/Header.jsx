@@ -7,7 +7,7 @@ function Header() {
     <header>
       <nav className='navbar'>
         <div className='navbar-logo'>
-          <img src="logo_kasa.png" alt="Logo Kasa" />
+          <img src="/logo_kasa.png" alt="Logo Kasa" />
         </div>
         <ul>
           <li><NavLink to={'/'}>Accueil</NavLink></li>
