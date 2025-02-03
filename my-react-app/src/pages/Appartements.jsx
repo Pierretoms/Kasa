@@ -21,10 +21,10 @@ function Appartements() {
         <Main>
           <div className='appartements_page'>
             <BannerAppartements />
-            <AppartementsDetails titre={logement.title} location={logement.location}/>
+            <AppartementsDetails titre={logement.title} hostpicture={logement.host.picture} tags={logement.tags} hostname={logement.host.name} location={logement.location} rating={logement.rating} description={logement.description} equipement={logement.equipments} />
             <div className="description_equipement">
-              <DropDown titre='Description' />
-              <DropDown titre='Equipements' />
+              <DropDown titre='Description' contenu={logement.description} />
+              <DropDown titre='Equipements' contenu={logement.equipments} />
             </div>
           </div>
         </Main>
