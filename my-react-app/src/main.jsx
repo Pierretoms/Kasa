@@ -13,7 +13,7 @@ ReactDOM.createRoot(root).render(
       <Route path="/" element={<App />} />
       <Route path="/about" element={<About />} />
       <Route path="/appartements/:id" element={<Appartements />} />
-      <Route path="/error" element={<Error />} />
+      <Route path="*" element={<Error />} />
     </Routes>
   </BrowserRouter>
 );
