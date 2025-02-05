@@ -1,24 +1,24 @@
 .appartements_description {
     margin-bottom: 30px;
+
     h4 {
         color: white;
         border-radius: 5px;
         margin: 0;
     }
-    p {
+
+    p, ul {
         background-color: #F6F6F6;
         border-radius: 5px;
         margin: 0;
         padding: 20px;
     }
+
     ul {
-        background-color: #F6F6F6;
-        border-radius: 5px;
-        margin: 0;
-        padding: 20px;
         display: flex;
         flex-direction: column;
     }
+
     li {
         font-weight: 400;
         font-size: 16px;
@@ -34,11 +34,27 @@
     border-radius: 5px;
     padding: 10px 15px;
     min-width: 552px;
+
     i {
         color: white;
         font-size: 24px;
+        transition: transform 0.5s ease-in-out;
+        cursor: pointer;
     }
 }
+
+.appartements_description_contenu {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.appartements_description_contenu.open {
+    max-height: 500px; // Ajuster --> contenu
+    opacity: 1;
+}
+
 
 @media (max-width: 768px) {
     .appartements_description_header {
