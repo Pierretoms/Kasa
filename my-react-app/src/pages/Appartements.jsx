@@ -28,7 +28,7 @@ function Appartements() {
       <Header />
       <Main>
         <div className='appartements_page'>
-          <BannerAppartements />
+          <BannerAppartements carrousel={logement.pictures} />
           <AppartementsDetails 
             titre={logement.title} 
             hostpicture={logement.host.picture} 
