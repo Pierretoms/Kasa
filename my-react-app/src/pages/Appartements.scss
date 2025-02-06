@@ -1,5 +1,6 @@
 .description_equipement {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 76px;
     margin-top: 10px;
 }
@@ -8,6 +9,7 @@
       
     .description_equipement {
         gap: 0;
+        display: flex;
         flex-direction: column;
     }
 }

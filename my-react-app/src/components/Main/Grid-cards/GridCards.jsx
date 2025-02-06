@@ -1,7 +1,7 @@
 import React from 'react'
 import './GridCards.scss'
-import Cards from './Cards.jsx'
-import data from '../../back-end.json'
+import Cards from '../Cards/Cards.jsx'
+import data from '../../../back-end.json'
 import { Link } from 'react-router-dom'
 
 function GridCards() {

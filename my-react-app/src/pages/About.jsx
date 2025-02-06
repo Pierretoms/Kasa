@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.scss'
 import Header from '../components/Header/Header.jsx';
-import BannerAbout from '../components/Main/BannerAbout.jsx';
+import BannerAbout from '../components/Main/Banner-about/BannerAbout.jsx';
 import Main from '../components/Main/Main.jsx';
-import DropDown from '../components/Main/DropDown.jsx';
+import DropDown from '../components/Main/Dropdown/DropDown.jsx';
 import Footer from '../components/Footer/Footer.jsx';
 import './About.scss'
 
